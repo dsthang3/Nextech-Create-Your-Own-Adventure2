@@ -1,0 +1,39 @@
+body {
+    background: rgb(189, 249, 242);
+
+}
+
+#character {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.door {
+
+
+    position: relative;
+    left: 1000px;
+     background-repeat: no-repeat 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 30px;
+
+    
+}
+
+img {
+    width: 250px;
+    height: 300px;
+}
+
+.text-absolute {
+    position: absolute;
+
+}
